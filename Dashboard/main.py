@@ -44,7 +44,7 @@ def end_before_start(start_date, end_date):
     else:
         return False
 
-# Can't cahce has it graphs and plots
+# Can't cache has it graphs and plots
 def display_dashboard(start_date, end_date, target):
     tab1, tab2 = st.tabs(["Population change", "Compare"])
     
