@@ -18,7 +18,7 @@ def display_df():
                        'Number of Features': st.session_state['num_features'],
                        'F-1 Score': st.session_state['score']})
     
-    sorted_df = df.sort_values(by=['F-1 Score'],ascending=False).reset_index
+    sorted_df = df.sort_values(by=['F-1 Score'],ascending=False).reset_index(drop=True)
     
     st.write(sorted_df)
     
