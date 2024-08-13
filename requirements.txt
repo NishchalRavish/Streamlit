@@ -4,7 +4,7 @@ numpy==2.0.1
 pandas==2.2.2
 PyYAML==6.0.2
 PyYAML==6.0.2
-Requests==2.32.3
+requests==2.32.3
 scikit_learn==1.5.1
 statsforecast==1.7.6
 streamlit==1.37.0
